@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/global_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--<View-->
+        <!--android:id="@+id/divider_title"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_below="@id/title"-->
+        <!--android:background="@color/card_outline" />-->
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/picture3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/image"
+            android:background="@drawable/trending_gradient_shape"></View>
+
+        <TextView
+            android:id="@+id/title"
+            style="@android:style/TextAppearance.Large.Inverse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="22sp"
+            tools:text="Title" />
+        <!--<View-->
+        <!--android:id="@+id/divider_bottom"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_below="@id/image"-->
+        <!--android:background="@color/card_outline" />-->
+
+        <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:layout_alignBottom="@+id/image_1"-->
+        <!--android:layout_below="@+id/divider_bottom"-->
+        <!--android:background="@color/card_bg"-->
+        <!--/>-->
+
+        <TextView
+            android:id="@+id/description"
+            style="@android:style/TextAppearance.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:padding="10dp"
+            android:textColor="@color/textColorSecondary"
+            tools:text="This is the description, it is a long description, as you can see" />
+
+        <!--<View-->
+            <!--android:id="@+id/btn_sep_1"-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_alignBottom="@+id/image_1"-->
+            <!--android:layout_below="@id/image"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--android:layout_toLeftOf="@+id/image_1"-->
+            <!--android:background="#ccc" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/image_1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/image"-->
+            <!--android:layout_toLeftOf="@+id/btn_sep_2"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:padding="10dp"-->
+            <!--android:src="@drawable/camera"-->
+            <!--android:visibility="gone" />-->
+
+        <!--<View-->
+            <!--android:id="@+id/btn_sep_2"-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_alignBottom="@id/image_1"-->
+            <!--android:layout_below="@id/image"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--android:layout_toLeftOf="@+id/image_2"-->
+            <!--android:background="#ccc" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/image_2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_below="@id/image"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:padding="10dp"-->
+            <!--android:src="@drawable/people"-->
+            <!--android:visibility="gone" />-->
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
