@@ -6,3 +6,5 @@ The original library can be found in here
 https://github.com/kikoso/Swipeable-Cards
 
 This is just a revamp in the exisiting library for better view.
+
+(https://www.youtube.com/watch?v=_vYufRYBXVs "Swipeable Cards Is AWESOME")
