@@ -7,4 +7,4 @@ https://github.com/kikoso/Swipeable-Cards
 
 This is just a revamp in the exisiting library for better view.
 
-[![Swipeable Cards Is AWESOME](https://img.youtube.com/vi/YufRYBXVs/0.jpg)](https://www.youtube.com/watch?v=_vYufRYBXVs "Swipeable Cards Is AWESOME")
+[![Swipeable Cards Is AWESOME](https://img.youtube.com/vi/_vYufRYBXVs/0.jpg)](https://www.youtube.com/watch?v=_vYufRYBXVs "Swipeable Cards Is AWESOME")
